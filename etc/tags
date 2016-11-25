@@ -1,0 +1,306 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+_GNU_SOURCE	/home/softscape/zoe/platform/src/ins/dbs.c	6;"	d	file:
+__DBS__	/home/softscape/zoe/platform/inc/dbs.h	7;"	d
+__INI__	/home/softscape/zoe/platform/inc/ini.h	7;"	d
+__JSN__	/home/softscape/zoe/platform/inc/jsn.h	7;"	d
+__LOG__	/home/softscape/zoe/platform/inc/log.h	7;"	d
+__MMP__	/home/softscape/zoe/platform/inc/mmp.h	7;"	d
+__PKG__	/home/softscape/zoe/platform/inc/pkg.h	7;"	d
+__XML__	/home/softscape/zoe/platform/inc/xml.h	7;"	d
+argument	/home/softscape/zoe/platform/src/mod/pkg.c	/^	char argument[32];$/;"	m	struct:tpkgHand	file:
+argument	/home/softscape/zoe/platform/src/mod/pkg.c	/^	char argument[32];$/;"	m	struct:tpkgNode	file:
+button	/home/softscape/zoe/platform/src/srv/zoe.c	/^	char button;$/;"	m	struct:tzoeThrInfo	file:
+chld	/home/softscape/zoe/platform/inc/jsn.h	/^	struct tjsnItem *chld;$/;"	m	struct:tjsnItem	typeref:struct:tjsnItem::tjsnItem
+chld	/home/softscape/zoe/platform/inc/xml.h	/^	struct txmlItem *chld;$/;"	m	struct:txmlItem	typeref:struct:txmlItem::txmlItem
+cjsnArr	/home/softscape/zoe/platform/src/mod/jsn.c	14;"	d	file:
+cjsnNum	/home/softscape/zoe/platform/src/mod/jsn.c	13;"	d	file:
+cjsnObj	/home/softscape/zoe/platform/src/mod/jsn.c	15;"	d	file:
+cjsnStr	/home/softscape/zoe/platform/src/mod/jsn.c	12;"	d	file:
+cmmpHashSize	/home/softscape/zoe/platform/src/mod/mmp.c	22;"	d	file:
+cmmpPrintSize	/home/softscape/zoe/platform/src/unt/mmp.c	12;"	d	file:
+conid	/home/softscape/zoe/platform/src/srv/zoe.c	/^	int conid;$/;"	m	struct:tzoeTskInfo	file:
+cpkgRuleCount	/home/softscape/zoe/platform/src/mod/pkg.c	28;"	d	file:
+cpkgRuleSize	/home/softscape/zoe/platform/src/mod/pkg.c	26;"	d	file:
+cxmlObj	/home/softscape/zoe/platform/src/mod/xml.c	13;"	d	file:
+cxmlStr	/home/softscape/zoe/platform/src/mod/xml.c	12;"	d	file:
+data	/home/softscape/zoe/platform/src/mod/mmp.c	/^	short data;$/;"	m	struct:tmmpHashItem	file:
+fdbsBoot	/home/softscape/zoe/platform/src/ins/dbs.c	/^int fdbsBoot(void)$/;"	f
+fdbsComm	/home/softscape/zoe/platform/src/mod/dbs.c	/^int fdbsComm(void)$/;"	f
+fdbsCreate	/home/softscape/zoe/platform/src/ins/dbs.c	/^int fdbsCreate(void)$/;"	f
+fdbsDelete	/home/softscape/zoe/platform/src/ins/dbs.c	/^int fdbsDelete(void)$/;"	f
+fdbsDrop	/home/softscape/zoe/platform/src/ins/dbs.c	/^int fdbsDrop(void)$/;"	f
+fdbsExam	/home/softscape/zoe/platform/src/ins/dbs.c	/^int fdbsExam(void)$/;"	f
+fdbsExport	/home/softscape/zoe/platform/src/ins/dbs.c	/^int fdbsExport(void)$/;"	f
+fdbsFree	/home/softscape/zoe/platform/src/mod/dbs.c	/^int fdbsFree(void)$/;"	f
+fdbsHelp	/home/softscape/zoe/platform/src/ins/dbs.c	/^void fdbsHelp(void)$/;"	f
+fdbsImport	/home/softscape/zoe/platform/src/ins/dbs.c	/^int fdbsImport(void)$/;"	f
+fdbsInit	/home/softscape/zoe/platform/src/mod/dbs.c	/^int fdbsInit(char *bsncode)$/;"	f
+fdbsList	/home/softscape/zoe/platform/src/ins/dbs.c	/^int fdbsList(void)$/;"	f
+fdbsManage	/home/softscape/zoe/platform/src/mod/dbs.c	/^int fdbsManage(char *format,...)$/;"	f
+fdbsRoll	/home/softscape/zoe/platform/src/mod/dbs.c	/^int fdbsRoll(void)$/;"	f
+fdbsSelectBind	/home/softscape/zoe/platform/src/mod/dbs.c	/^int fdbsSelectBind(void *stm,int index,int type,void *data,int size)$/;"	f
+fdbsSelectFree	/home/softscape/zoe/platform/src/mod/dbs.c	/^int fdbsSelectFree(void *stm)$/;"	f
+fdbsSelectGain	/home/softscape/zoe/platform/src/mod/dbs.c	/^int fdbsSelectGain(void *stm)$/;"	f
+fdbsSelectInit	/home/softscape/zoe/platform/src/mod/dbs.c	/^int fdbsSelectInit(void **stm,char *format,...)$/;"	f
+fdbsShut	/home/softscape/zoe/platform/src/ins/dbs.c	/^int fdbsShut(void)$/;"	f
+fdbsTran	/home/softscape/zoe/platform/src/mod/dbs.c	/^int fdbsTran(void)$/;"	f
+feature	/home/softscape/zoe/platform/src/mod/pkg.c	/^	char feature;$/;"	m	struct:tpkgHand	file:
+feature	/home/softscape/zoe/platform/src/mod/pkg.c	/^	char feature[64];$/;"	m	struct:tpkgNode	file:
+femuClient	/home/softscape/zoe/platform/src/ins/emu.c	/^int femuClient(void)$/;"	f
+femuEmuFile	/home/softscape/zoe/platform/src/ins/emu.c	/^int femuEmuFile(void)$/;"	f
+femuExam	/home/softscape/zoe/platform/src/ins/emu.c	/^int femuExam(void)$/;"	f
+femuHand	/home/softscape/zoe/platform/src/ins/emu.c	/^int femuHand(void)$/;"	f
+femuHelp	/home/softscape/zoe/platform/src/ins/emu.c	/^void femuHelp(void)$/;"	f
+femuLnkFile	/home/softscape/zoe/platform/src/ins/emu.c	/^int femuLnkFile(void)$/;"	f
+femuServer	/home/softscape/zoe/platform/src/ins/emu.c	/^int femuServer(void)$/;"	f
+femuSetBlock	/home/softscape/zoe/platform/src/ins/emu.c	/^int femuSetBlock(int id)$/;"	f
+femuSetNlock	/home/softscape/zoe/platform/src/ins/emu.c	/^int femuSetNlock(int id)$/;"	f
+finiGet	/home/softscape/zoe/platform/src/mod/ini.c	/^int finiGet(char *bsncode,char *sec,char *key,char *data,int *size)$/;"	f
+finiSet	/home/softscape/zoe/platform/src/mod/ini.c	/^int finiSet(char *bsncode,char *sec,char *key,char *data,int size)$/;"	f
+fjsnAllExport	/home/softscape/zoe/platform/src/mod/jsn.c	/^int fjsnAllExport(struct tjsnItem *item,char **dst)$/;"	f
+fjsnAllImport	/home/softscape/zoe/platform/src/mod/jsn.c	/^int fjsnAllImport(struct tjsnItem *item,char **src)$/;"	f
+fjsnArrCreate	/home/softscape/zoe/platform/src/mod/jsn.c	/^int fjsnArrCreate(struct tjsnItem **item)$/;"	f
+fjsnArrExport	/home/softscape/zoe/platform/src/mod/jsn.c	/^int fjsnArrExport(struct tjsnItem *item,char **dst)$/;"	f
+fjsnArrImport	/home/softscape/zoe/platform/src/mod/jsn.c	/^int fjsnArrImport(struct tjsnItem *item,char **src)$/;"	f
+fjsnArrInsert	/home/softscape/zoe/platform/src/mod/jsn.c	/^void fjsnArrInsert(struct tjsnItem *arr,struct tjsnItem *item)$/;"	f
+fjsnArrSelect	/home/softscape/zoe/platform/src/mod/jsn.c	/^int fjsnArrSelect(struct tjsnItem *arr,struct tjsnItem **item,int ind)$/;"	f
+fjsnExport	/home/softscape/zoe/platform/src/mod/jsn.c	/^int fjsnExport(struct tjsnItem *item,char **pd,int *pl)$/;"	f
+fjsnFree	/home/softscape/zoe/platform/src/mod/jsn.c	/^void fjsnFree(struct tjsnItem *item)$/;"	f
+fjsnImport	/home/softscape/zoe/platform/src/mod/jsn.c	/^int fjsnImport(struct tjsnItem *item,char **pd,int pl)$/;"	f
+fjsnInit	/home/softscape/zoe/platform/src/mod/jsn.c	/^int fjsnInit(struct tjsnItem **item)$/;"	f
+fjsnKeyExport	/home/softscape/zoe/platform/src/mod/jsn.c	/^void fjsnKeyExport(struct tjsnItem *item,char **dst)$/;"	f
+fjsnKeyImport	/home/softscape/zoe/platform/src/mod/jsn.c	/^void fjsnKeyImport(struct tjsnItem *item,char **src)$/;"	f
+fjsnNumCreate	/home/softscape/zoe/platform/src/mod/jsn.c	/^int fjsnNumCreate(struct tjsnItem **item,char *vald,int vall)$/;"	f
+fjsnNumExport	/home/softscape/zoe/platform/src/mod/jsn.c	/^void fjsnNumExport(struct tjsnItem *item,char **dst)$/;"	f
+fjsnNumImport	/home/softscape/zoe/platform/src/mod/jsn.c	/^int fjsnNumImport(struct tjsnItem *item,char **src)$/;"	f
+fjsnObjCreate	/home/softscape/zoe/platform/src/mod/jsn.c	/^int fjsnObjCreate(struct tjsnItem **item)$/;"	f
+fjsnObjExport	/home/softscape/zoe/platform/src/mod/jsn.c	/^int fjsnObjExport(struct tjsnItem *item,char **dst)$/;"	f
+fjsnObjImport	/home/softscape/zoe/platform/src/mod/jsn.c	/^int fjsnObjImport(struct tjsnItem *item,char **src)$/;"	f
+fjsnObjInsert	/home/softscape/zoe/platform/src/mod/jsn.c	/^void fjsnObjInsert(struct tjsnItem *obj,struct tjsnItem *item,char *keyd,int keyl)$/;"	f
+fjsnObjSelect	/home/softscape/zoe/platform/src/mod/jsn.c	/^int fjsnObjSelect(struct tjsnItem *obj,struct tjsnItem **item,char *keyd,int keyl)$/;"	f
+fjsnStrCreate	/home/softscape/zoe/platform/src/mod/jsn.c	/^int fjsnStrCreate(struct tjsnItem **item,char *vald,int vall)$/;"	f
+fjsnStrExport	/home/softscape/zoe/platform/src/mod/jsn.c	/^void fjsnStrExport(struct tjsnItem *item,char **dst)$/;"	f
+fjsnStrImport	/home/softscape/zoe/platform/src/mod/jsn.c	/^int fjsnStrImport(struct tjsnItem *item,char **src)$/;"	f
+flogAnyhow	/home/softscape/zoe/platform/src/mod/log.c	/^void flogAnyhow(char *format,...)$/;"	f
+flogDate	/home/softscape/zoe/platform/src/mod/log.c	/^char *flogDate(int split)$/;"	f
+flogDepend	/home/softscape/zoe/platform/src/mod/log.c	/^void flogDepend(char *format,...)$/;"	f
+flogFree	/home/softscape/zoe/platform/src/mod/log.c	/^int flogFree(char *bsncode,char *file)$/;"	f
+flogInit	/home/softscape/zoe/platform/src/mod/log.c	/^int flogInit(char *bsncode,char *file)$/;"	f
+flogTime	/home/softscape/zoe/platform/src/mod/log.c	/^char *flogTime(int split)$/;"	f
+fmmpFree	/home/softscape/zoe/platform/src/mod/mmp.c	/^int fmmpFree(void)$/;"	f
+fmmpHash	/home/softscape/zoe/platform/src/mod/mmp.c	/^static int fmmpHash(char *mark)$/;"	f	file:
+fmmpHeapFree	/home/softscape/zoe/platform/src/mod/mmp.c	/^static void fmmpHeapFree(char *head,short position)$/;"	f	file:
+fmmpHeapInit	/home/softscape/zoe/platform/src/mod/mmp.c	/^static int fmmpHeapInit(char *head,short size,short *position)$/;"	f	file:
+fmmpHeapRnit	/home/softscape/zoe/platform/src/mod/mmp.c	/^static int fmmpHeapRnit(char *head,short old,short size,short *new)$/;"	f	file:
+fmmpInit	/home/softscape/zoe/platform/src/mod/mmp.c	/^int fmmpInit(int size)$/;"	f
+fmmpRefGet	/home/softscape/zoe/platform/src/mod/mmp.c	/^int fmmpRefGet(char *mark,int number,void *data,int *size)$/;"	f
+fmmpRefSet	/home/softscape/zoe/platform/src/mod/mmp.c	/^int fmmpRefSet(char *mark,int number,void *data,int size)$/;"	f
+fmmpRnit	/home/softscape/zoe/platform/src/mod/mmp.c	/^int fmmpRnit(int size)$/;"	f
+fmmpSwap	/home/softscape/zoe/platform/src/mod/mmp.c	/^void fmmpSwap(void *new,void **old)$/;"	f
+fmmpValGet	/home/softscape/zoe/platform/src/mod/mmp.c	/^int fmmpValGet(char *mark,int number,void *data,int *size)$/;"	f
+fmmpValSet	/home/softscape/zoe/platform/src/mod/mmp.c	/^int fmmpValSet(char *mark,int number,void *data,int size)$/;"	f
+fpkgB64Dec	/home/softscape/zoe/platform/src/mod/pkg.c	/^int fpkgB64Dec(char *srcdata,int srcsize,char *dstdata,int *dstsize,char *argument)$/;"	f
+fpkgB64Enc	/home/softscape/zoe/platform/src/mod/pkg.c	/^int fpkgB64Enc(char *srcdata,int srcsize,char *dstdata,int *dstsize,char *argument)$/;"	f
+fpkgCipDec	/home/softscape/zoe/platform/src/mod/pkg.c	/^int fpkgCipDec(char *srcdata,int srcsize,char *dstdata,int *dstsize,char *argument)$/;"	f
+fpkgCipEnc	/home/softscape/zoe/platform/src/mod/pkg.c	/^int fpkgCipEnc(char *srcdata,int srcsize,char *dstdata,int *dstsize,char *argument)$/;"	f
+fpkgDec	/home/softscape/zoe/platform/src/mod/pkg.c	/^int fpkgDec(char *lnkcode,char *trncode,char **fmldata,char **tmpdata,int size)$/;"	f
+fpkgDigEnc	/home/softscape/zoe/platform/src/mod/pkg.c	/^int fpkgDigEnc(char *srcdata,int srcsize,char *dstdata,int *dstsize,char *argument)$/;"	f
+fpkgEnc	/home/softscape/zoe/platform/src/mod/pkg.c	/^int fpkgEnc(char *lnkcode,char *trncode,char **fmldata,char **tmpdata,int *size)$/;"	f
+fpkgFixDec	/home/softscape/zoe/platform/src/mod/pkg.c	/^int fpkgFixDec(struct tpkgNode *node,char **middle,int index,char **data,int size)$/;"	f
+fpkgFixEnc	/home/softscape/zoe/platform/src/mod/pkg.c	/^int fpkgFixEnc(struct tpkgNode *node,char **middle,int index,char **data,int *size)$/;"	f
+fpkgHexDec	/home/softscape/zoe/platform/src/mod/pkg.c	/^int fpkgHexDec(char *srcdata,int srcsize,char *dstdata,int *dstsize,char *argument)$/;"	f
+fpkgHexEnc	/home/softscape/zoe/platform/src/mod/pkg.c	/^int fpkgHexEnc(char *srcdata,int srcsize,char *dstdata,int *dstsize,char *argument)$/;"	f
+fpkgJsnDec	/home/softscape/zoe/platform/src/mod/pkg.c	/^int fpkgJsnDec(struct tpkgNode *node,char **middle,int index,char **data,int size)$/;"	f
+fpkgJsnEnc	/home/softscape/zoe/platform/src/mod/pkg.c	/^int fpkgJsnEnc(struct tpkgNode *node,char **middle,int index,char **data,int *size)$/;"	f
+fpkgRsaDec	/home/softscape/zoe/platform/src/mod/pkg.c	/^int fpkgRsaDec(char *srcdata,int srcsize,char *dstdata,int *dstsize,char *argument)$/;"	f
+fpkgRsaEnc	/home/softscape/zoe/platform/src/mod/pkg.c	/^int fpkgRsaEnc(char *srcdata,int srcsize,char *dstdata,int *dstsize,char *argument)$/;"	f
+fpkgRuleInit	/home/softscape/zoe/platform/src/mod/pkg.c	/^int fpkgRuleInit(char *bsncode)$/;"	f
+fpkgSetEnc	/home/softscape/zoe/platform/src/mod/pkg.c	/^int fpkgSetEnc(char *srcdata,int srcsize,char *dstdata,int *dstsize,char *argument)$/;"	f
+fpkgStackPull	/home/softscape/zoe/platform/src/mod/pkg.c	/^static int fpkgStackPull(struct tpkgStack *stack,struct tpkgHand *hand)$/;"	f	file:
+fpkgStackPush	/home/softscape/zoe/platform/src/mod/pkg.c	/^static int fpkgStackPush(struct tpkgStack *stack,struct tpkgHand *hand)$/;"	f	file:
+fpkgUrlDec	/home/softscape/zoe/platform/src/mod/pkg.c	/^int fpkgUrlDec(char *srcdata,int srcsize,char *dstdata,int *dstsize,char *argument)$/;"	f
+fpkgUrlEnc	/home/softscape/zoe/platform/src/mod/pkg.c	/^int fpkgUrlEnc(char *srcdata,int srcsize,char *dstdata,int *dstsize,char *argument)$/;"	f
+fpkgVarDec	/home/softscape/zoe/platform/src/mod/pkg.c	/^int fpkgVarDec(struct tpkgNode *node,char **middle,int index,char **data,int size)$/;"	f
+fpkgVarEnc	/home/softscape/zoe/platform/src/mod/pkg.c	/^int fpkgVarEnc(struct tpkgNode *node,char **middle,int index,char **data,int *size)$/;"	f
+fpkgXmlDec	/home/softscape/zoe/platform/src/mod/pkg.c	/^int fpkgXmlDec(struct tpkgNode *node,char **middle,int index,char **data,int size)$/;"	f
+fpkgXmlEnc	/home/softscape/zoe/platform/src/mod/pkg.c	/^int fpkgXmlEnc(struct tpkgNode *node,char **middle,int index,char **data,int *size)$/;"	f
+full	/home/softscape/zoe/platform/src/mod/pkg.c	/^	struct tpkgHand full[32];$/;"	m	struct:tpkgStack	typeref:struct:tpkgStack::tpkgHand	file:
+fxmlAllExport	/home/softscape/zoe/platform/src/mod/xml.c	/^int fxmlAllExport(struct txmlItem *item,char **dst)$/;"	f
+fxmlAllImport	/home/softscape/zoe/platform/src/mod/xml.c	/^int fxmlAllImport(struct txmlItem *item,char **src)$/;"	f
+fxmlArrImport	/home/softscape/zoe/platform/src/mod/xml.c	/^int fxmlArrImport(struct txmlItem *item,char **src)$/;"	f
+fxmlArrSelect	/home/softscape/zoe/platform/src/mod/xml.c	/^int fxmlArrSelect(struct txmlItem *arr,struct txmlItem **item,int ind)$/;"	f
+fxmlExport	/home/softscape/zoe/platform/src/mod/xml.c	/^int fxmlExport(struct txmlItem *item,char **pd,int *pl)$/;"	f
+fxmlFree	/home/softscape/zoe/platform/src/mod/xml.c	/^void fxmlFree(struct txmlItem *item)$/;"	f
+fxmlImport	/home/softscape/zoe/platform/src/mod/xml.c	/^int fxmlImport(struct txmlItem *item,char **pd,int pl)$/;"	f
+fxmlInit	/home/softscape/zoe/platform/src/mod/xml.c	/^int fxmlInit(struct txmlItem **item)$/;"	f
+fxmlKeyExport	/home/softscape/zoe/platform/src/mod/xml.c	/^void fxmlKeyExport(struct txmlItem *item,char **dst)$/;"	f
+fxmlKeyImport	/home/softscape/zoe/platform/src/mod/xml.c	/^void fxmlKeyImport(struct txmlItem *item,char **src)$/;"	f
+fxmlNumImport	/home/softscape/zoe/platform/src/mod/xml.c	/^int fxmlNumImport(struct txmlItem *item,char **src)$/;"	f
+fxmlObjExport	/home/softscape/zoe/platform/src/mod/xml.c	/^int fxmlObjExport(struct txmlItem *item,char **dst)$/;"	f
+fxmlObjImport	/home/softscape/zoe/platform/src/mod/xml.c	/^int fxmlObjImport(struct txmlItem *item,char **src)$/;"	f
+fxmlObjInsert	/home/softscape/zoe/platform/src/mod/xml.c	/^void fxmlObjInsert(struct txmlItem *obj,struct txmlItem *item,char *keyd,int keyl)$/;"	f
+fxmlObjSelect	/home/softscape/zoe/platform/src/mod/xml.c	/^int fxmlObjSelect(struct txmlItem *obj,struct txmlItem **item,char *keyd,int keyl)$/;"	f
+fxmlStcCreate	/home/softscape/zoe/platform/src/mod/xml.c	/^int fxmlStcCreate(struct txmlItem **item)$/;"	f
+fxmlStrExport	/home/softscape/zoe/platform/src/mod/xml.c	/^void fxmlStrExport(struct txmlItem *item,char **dst)$/;"	f
+fxmlStrImport	/home/softscape/zoe/platform/src/mod/xml.c	/^int fxmlStrImport(struct txmlItem *item,char **src)$/;"	f
+fxmlValCreate	/home/softscape/zoe/platform/src/mod/xml.c	/^int fxmlValCreate(struct txmlItem **item,char *vald,int vall)$/;"	f
+fzoeBoot	/home/softscape/zoe/platform/src/srv/zoe.c	/^void fzoeBoot(void)$/;"	f
+fzoeBootHand	/home/softscape/zoe/platform/src/srv/zoe.c	/^void fzoeBootHand(int done)$/;"	f
+fzoeBtcTrn	/home/softscape/zoe/platform/src/srv/zoe.c	/^int fzoeBtcTrn(char *trncode,void *trnhand,void *trnpara)$/;"	f
+fzoeEmployBoot	/home/softscape/zoe/platform/src/srv/zoe.c	/^void *fzoeEmployBoot(void *argument)$/;"	f
+fzoeList	/home/softscape/zoe/platform/src/srv/zoe.c	/^void fzoeList(void)$/;"	f
+fzoeListHand	/home/softscape/zoe/platform/src/srv/zoe.c	/^void fzoeListHand(int id,siginfo_t *siginfo,void *nothing)$/;"	f
+fzoeManageBoot	/home/softscape/zoe/platform/src/srv/zoe.c	/^void fzoeManageBoot(void)$/;"	f
+fzoeShut	/home/softscape/zoe/platform/src/srv/zoe.c	/^void fzoeShut(void)$/;"	f
+fzoeShutHand	/home/softscape/zoe/platform/src/srv/zoe.c	/^void fzoeShutHand(int id,siginfo_t *siginfo,void *nothing)$/;"	f
+fzoeSrvTrn	/home/softscape/zoe/platform/src/srv/zoe.c	/^int fzoeSrvTrn(char *lnkcode,char *trncode)$/;"	f
+keyd	/home/softscape/zoe/platform/inc/jsn.h	/^	char *keyd;$/;"	m	struct:tjsnItem
+keyd	/home/softscape/zoe/platform/inc/xml.h	/^	char *keyd;$/;"	m	struct:txmlItem
+keyl	/home/softscape/zoe/platform/inc/jsn.h	/^	int keyl;$/;"	m	struct:tjsnItem
+keyl	/home/softscape/zoe/platform/inc/xml.h	/^	int keyl;$/;"	m	struct:txmlItem
+last	/home/softscape/zoe/platform/src/mod/pkg.c	/^	struct tpkgHand *last;$/;"	m	struct:tpkgStack	typeref:struct:tpkgStack::tpkgHand	file:
+linuxid	/home/softscape/zoe/platform/src/srv/zoe.c	/^	int linuxid;$/;"	m	struct:tzoeThrInfo	file:
+lnkcode	/home/softscape/zoe/platform/src/srv/zoe.c	/^	char lnkcode[3+1];$/;"	m	struct:tzoeLnkInfo	file:
+lnkcode	/home/softscape/zoe/platform/src/srv/zoe.c	/^	char lnkcode[3+1];$/;"	m	struct:tzoeTskInfo	file:
+lnkcode	/home/softscape/zoe/platform/src/srv/zoe.c	/^	char lnkcode[3];$/;"	m	struct:tzoeTrnInfo	file:
+lnkhost	/home/softscape/zoe/platform/src/srv/zoe.c	/^	char lnkhost[16];$/;"	m	struct:tzoeLnkInfo	file:
+lnkmode	/home/softscape/zoe/platform/src/srv/zoe.c	/^	char lnkmode;$/;"	m	struct:tzoeLnkInfo	file:
+lnkport	/home/softscape/zoe/platform/src/srv/zoe.c	/^	int lnkport;$/;"	m	struct:tzoeLnkInfo	file:
+lnkrule	/home/softscape/zoe/platform/src/srv/zoe.c	/^	int lnkrule[3];$/;"	m	struct:tzoeLnkInfo	file:
+lnktype	/home/softscape/zoe/platform/src/srv/zoe.c	/^	char lnktype;$/;"	m	struct:tzoeLnkInfo	file:
+main	/home/softscape/zoe/platform/src/ins/dbs.c	/^int main(int argc,char *argv[])$/;"	f
+main	/home/softscape/zoe/platform/src/ins/emu.c	/^int main(int argc,char *argv[])$/;"	f
+main	/home/softscape/zoe/platform/src/srv/zoe.c	/^int main(int argc,char *argv[])$/;"	f
+main	/home/softscape/zoe/platform/src/unt/dbs.c	/^int main(int argc,char *argv[])$/;"	f
+main	/home/softscape/zoe/platform/src/unt/ini.c	/^int main(void)$/;"	f
+main	/home/softscape/zoe/platform/src/unt/jsn.c	/^int main(void)$/;"	f
+main	/home/softscape/zoe/platform/src/unt/log.c	/^int main(void)$/;"	f
+main	/home/softscape/zoe/platform/src/unt/mmp.c	/^int main(void)$/;"	f
+main	/home/softscape/zoe/platform/src/unt/pkg.c	/^int main(int argc,char *argv[])$/;"	f
+mark	/home/softscape/zoe/platform/src/mod/mmp.c	/^	short mark;$/;"	m	struct:tmmpHashItem	file:
+mark	/home/softscape/zoe/platform/src/mod/pkg.c	/^	char mark[16];$/;"	m	struct:tpkgNode	file:
+mark	/home/softscape/zoe/platform/src/mod/pkg.c	/^	char mark[32];$/;"	m	struct:tpkgRule	file:
+mdbsSelectBindDbl	/home/softscape/zoe/platform/inc/dbs.h	70;"	d
+mdbsSelectBindInt	/home/softscape/zoe/platform/inc/dbs.h	68;"	d
+mdbsSelectBindSht	/home/softscape/zoe/platform/inc/dbs.h	66;"	d
+mdbsSelectBindStr	/home/softscape/zoe/platform/inc/dbs.h	72;"	d
+mjsnSkip	/home/softscape/zoe/platform/src/mod/jsn.c	17;"	d	file:
+mlogDebug	/home/softscape/zoe/platform/inc/log.h	53;"	d
+mlogError	/home/softscape/zoe/platform/inc/log.h	56;"	d
+mpkgSwap	/home/softscape/zoe/platform/src/unt/pkg.c	13;"	d	file:
+mxmlSkip	/home/softscape/zoe/platform/src/mod/xml.c	15;"	d	file:
+name	/home/softscape/zoe/platform/src/mod/pkg.c	/^	char name[16];$/;"	m	struct:tpkgNode	file:
+name	/home/softscape/zoe/platform/src/mod/pkg.c	/^	char name[32];$/;"	m	struct:tpkgHand	file:
+nature	/home/softscape/zoe/platform/src/srv/zoe.c	/^	char nature;$/;"	m	struct:tzoeThrInfo	file:
+next	/home/softscape/zoe/platform/inc/jsn.h	/^	struct tjsnItem *next;$/;"	m	struct:tjsnItem	typeref:struct:tjsnItem::tjsnItem
+next	/home/softscape/zoe/platform/inc/xml.h	/^	struct txmlItem *next;$/;"	m	struct:txmlItem	typeref:struct:txmlItem::txmlItem
+next	/home/softscape/zoe/platform/src/mod/mmp.c	/^	short next;$/;"	m	struct:tmmpHashItem	file:
+next	/home/softscape/zoe/platform/src/mod/mmp.c	/^	short next;$/;"	m	struct:tmmpHeapItem	file:
+pointer	/home/softscape/zoe/platform/src/mod/pkg.c	/^	void *pointer;$/;"	m	struct:tpkgHand	file:
+pointer	/home/softscape/zoe/platform/src/mod/pkg.c	/^	void *pointer;$/;"	m	struct:tpkgNode	file:
+position	/home/softscape/zoe/platform/src/mod/pkg.c	/^	char *position;$/;"	m	struct:tpkgHand	file:
+position	/home/softscape/zoe/platform/src/mod/pkg.c	/^	char *position;$/;"	m	struct:tpkgRule	file:
+posixid	/home/softscape/zoe/platform/src/srv/zoe.c	/^	pthread_t posixid;$/;"	m	struct:tzoeThrInfo	file:
+prev	/home/softscape/zoe/platform/src/mod/mmp.c	/^	short prev;$/;"	m	struct:tmmpHeapItem	file:
+room	/home/softscape/zoe/platform/src/mod/mmp.c	/^	short room;$/;"	m	struct:tmmpHashItem	file:
+size	/home/softscape/zoe/platform/src/mod/mmp.c	/^	short size;$/;"	m	struct:tmmpHashItem	file:
+size	/home/softscape/zoe/platform/src/mod/mmp.c	/^	short size;$/;"	m	struct:tmmpHeapItem	file:
+stat	/home/softscape/zoe/platform/src/mod/mmp.c	/^	short stat;$/;"	m	struct:tmmpHeapItem	file:
+status	/home/softscape/zoe/platform/src/srv/zoe.c	/^	char status;$/;"	m	struct:tzoeThrInfo	file:
+time	/home/softscape/zoe/platform/src/srv/zoe.c	/^	time_t time;$/;"	m	struct:tzoeTskInfo	file:
+tjsnItem	/home/softscape/zoe/platform/inc/jsn.h	/^struct tjsnItem$/;"	s
+tmmpHashItem	/home/softscape/zoe/platform/src/mod/mmp.c	/^struct tmmpHashItem$/;"	s	file:
+tmmpHeapItem	/home/softscape/zoe/platform/src/mod/mmp.c	/^struct tmmpHeapItem$/;"	s	file:
+tpkgHand	/home/softscape/zoe/platform/src/mod/pkg.c	/^struct tpkgHand$/;"	s	file:
+tpkgNode	/home/softscape/zoe/platform/src/mod/pkg.c	/^struct tpkgNode$/;"	s	file:
+tpkgRule	/home/softscape/zoe/platform/src/mod/pkg.c	/^struct tpkgRule$/;"	s	file:
+tpkgStack	/home/softscape/zoe/platform/src/mod/pkg.c	/^struct tpkgStack$/;"	s	file:
+trncode	/home/softscape/zoe/platform/src/srv/zoe.c	/^	char trncode[16];$/;"	m	struct:tzoeTrnInfo	file:
+trntime	/home/softscape/zoe/platform/src/srv/zoe.c	/^	int trntime;$/;"	m	struct:tzoeTrnInfo	file:
+txmlItem	/home/softscape/zoe/platform/inc/xml.h	/^struct txmlItem$/;"	s
+type	/home/softscape/zoe/platform/inc/jsn.h	/^	char type;$/;"	m	struct:tjsnItem
+type	/home/softscape/zoe/platform/inc/xml.h	/^	char type;$/;"	m	struct:txmlItem
+tzoeLnkInfo	/home/softscape/zoe/platform/src/srv/zoe.c	/^struct tzoeLnkInfo$/;"	s	file:
+tzoeThrInfo	/home/softscape/zoe/platform/src/srv/zoe.c	/^struct tzoeThrInfo$/;"	s	file:
+tzoeTrnInfo	/home/softscape/zoe/platform/src/srv/zoe.c	/^struct tzoeTrnInfo$/;"	s	file:
+tzoeTskInfo	/home/softscape/zoe/platform/src/srv/zoe.c	/^struct tzoeTskInfo$/;"	s	file:
+vald	/home/softscape/zoe/platform/inc/jsn.h	/^	char *vald;$/;"	m	struct:tjsnItem
+vald	/home/softscape/zoe/platform/inc/xml.h	/^	char *vald;$/;"	m	struct:txmlItem
+vall	/home/softscape/zoe/platform/inc/jsn.h	/^	int vall;$/;"	m	struct:tjsnItem
+vall	/home/softscape/zoe/platform/inc/xml.h	/^	int vall;$/;"	m	struct:txmlItem
+vdbsBsnCode	/home/softscape/zoe/platform/src/ins/dbs.c	/^char vdbsBsnCode[3+1];$/;"	v
+vdbsDbc	/home/softscape/zoe/platform/src/mod/dbs.c	/^static pthread_key_t vdbsDbc;$/;"	v	file:
+vdbsEnv	/home/softscape/zoe/platform/src/mod/dbs.c	/^static pthread_key_t vdbsEnv;$/;"	v	file:
+vdbsOnce	/home/softscape/zoe/platform/src/mod/dbs.c	/^static pthread_once_t vdbsOnce=PTHREAD_ONCE_INIT;$/;"	v	file:
+vdbsTable	/home/softscape/zoe/platform/src/ins/dbs.c	/^char vdbsTable[32];$/;"	v
+vdbsTraverseSQL	/home/softscape/zoe/platform/src/ins/dbs.c	/^char *vdbsTraverseSQL[5]=$/;"	v
+vemuArgument	/home/softscape/zoe/platform/src/ins/emu.c	/^char vemuArgument[64];$/;"	v
+vemuBsnCode	/home/softscape/zoe/platform/src/ins/emu.c	/^char vemuBsnCode[3+1];$/;"	v
+vemuFmlData	/home/softscape/zoe/platform/src/ins/emu.c	/^char vemuFmlData[1024*8];$/;"	v
+vemuHandName	/home/softscape/zoe/platform/src/ins/emu.c	/^char vemuHandName[64];$/;"	v
+vemuHost	/home/softscape/zoe/platform/src/ins/emu.c	/^char vemuHost[15+1];$/;"	v
+vemuLength	/home/softscape/zoe/platform/src/ins/emu.c	/^int vemuLength;$/;"	v
+vemuLnkCode	/home/softscape/zoe/platform/src/ins/emu.c	/^char vemuLnkCode[3+1];$/;"	v
+vemuPort	/home/softscape/zoe/platform/src/ins/emu.c	/^char vemuPort[5+1];$/;"	v
+vemuTmpData	/home/softscape/zoe/platform/src/ins/emu.c	/^char vemuTmpData[1024*8];$/;"	v
+vemuTrnCode	/home/softscape/zoe/platform/src/ins/emu.c	/^char vemuTrnCode[16];$/;"	v
+vlogIsCreate	/home/softscape/zoe/platform/src/mod/log.c	/^static char vlogIsCreate;$/;"	v	file:
+vlogOnce	/home/softscape/zoe/platform/src/mod/log.c	/^static pthread_once_t vlogOnce=PTHREAD_ONCE_INIT;$/;"	v	file:
+vlogfp	/home/softscape/zoe/platform/src/mod/log.c	/^static pthread_key_t vlogfp;$/;"	v	file:
+vmmpHead	/home/softscape/zoe/platform/src/mod/mmp.c	/^static pthread_key_t vmmpHead;$/;"	v	file:
+vmmpOnce	/home/softscape/zoe/platform/src/mod/mmp.c	/^static pthread_once_t vmmpOnce=PTHREAD_ONCE_INIT;$/;"	v	file:
+vpkgMutex	/home/softscape/zoe/platform/src/mod/pkg.c	/^pthread_mutex_t vpkgMutex;$/;"	v
+vpkgRuleCount	/home/softscape/zoe/platform/src/mod/pkg.c	/^char vpkgRuleCount;$/;"	v
+vpkgRuleHead	/home/softscape/zoe/platform/src/mod/pkg.c	/^char *vpkgRuleHead;$/;"	v
+vzoeBsnCode	/home/softscape/zoe/platform/src/srv/zoe.c	/^char vzoeBsnCode[3+1];$/;"	v
+vzoeBtcCnt	/home/softscape/zoe/platform/src/srv/zoe.c	/^int vzoeBtcCnt;$/;"	v
+vzoeBusyCond	/home/softscape/zoe/platform/src/srv/zoe.c	/^pthread_cond_t *vzoeBusyCond;$/;"	v
+vzoeBusyHead	/home/softscape/zoe/platform/src/srv/zoe.c	/^int *vzoeBusyHead;$/;"	v
+vzoeBusyList	/home/softscape/zoe/platform/src/srv/zoe.c	/^void ***vzoeBusyList;$/;"	v
+vzoeBusyMutex	/home/softscape/zoe/platform/src/srv/zoe.c	/^pthread_mutex_t *vzoeBusyMutex;$/;"	v
+vzoeBusyTail	/home/softscape/zoe/platform/src/srv/zoe.c	/^int *vzoeBusyTail;$/;"	v
+vzoeCncCnt	/home/softscape/zoe/platform/src/srv/zoe.c	/^int vzoeCncCnt;$/;"	v
+vzoeCondNe	/home/softscape/zoe/platform/src/srv/zoe.c	/^pthread_cond_t vzoeCondNe;$/;"	v
+vzoeCondNf	/home/softscape/zoe/platform/src/srv/zoe.c	/^pthread_cond_t vzoeCondNf;$/;"	v
+vzoeEvtSize	/home/softscape/zoe/platform/src/srv/zoe.c	/^int vzoeEvtSize;$/;"	v
+vzoeFmlData	/home/softscape/zoe/platform/src/srv/zoe.c	/^char **vzoeFmlData;$/;"	v
+vzoeFreeCond	/home/softscape/zoe/platform/src/srv/zoe.c	/^pthread_cond_t *vzoeFreeCond;$/;"	v
+vzoeFreeHead	/home/softscape/zoe/platform/src/srv/zoe.c	/^int *vzoeFreeHead;$/;"	v
+vzoeFreeList	/home/softscape/zoe/platform/src/srv/zoe.c	/^void ***vzoeFreeList;$/;"	v
+vzoeFreeMutex	/home/softscape/zoe/platform/src/srv/zoe.c	/^pthread_mutex_t *vzoeFreeMutex;$/;"	v
+vzoeFreeTail	/home/softscape/zoe/platform/src/srv/zoe.c	/^int *vzoeFreeTail;$/;"	v
+vzoeIndex	/home/softscape/zoe/platform/src/srv/zoe.c	/^pthread_key_t vzoeIndex;$/;"	v
+vzoeJump	/home/softscape/zoe/platform/src/srv/zoe.c	/^sigjmp_buf *vzoeJump;$/;"	v
+vzoeLisSize	/home/softscape/zoe/platform/src/srv/zoe.c	/^int vzoeLisSize;$/;"	v
+vzoeLisTime	/home/softscape/zoe/platform/src/srv/zoe.c	/^int vzoeLisTime;$/;"	v
+vzoeLnkCount	/home/softscape/zoe/platform/src/srv/zoe.c	/^int vzoeLnkCount;$/;"	v
+vzoeLnkList	/home/softscape/zoe/platform/src/srv/zoe.c	/^}vzoeLnkList[16];$/;"	v	typeref:struct:tzoeLnkInfo
+vzoeMmpSize	/home/softscape/zoe/platform/src/srv/zoe.c	/^int vzoeMmpSize;$/;"	v
+vzoeMutex	/home/softscape/zoe/platform/src/srv/zoe.c	/^pthread_mutex_t vzoeMutex;$/;"	v
+vzoePkgHandle	/home/softscape/zoe/platform/src/srv/zoe.c	/^void *vzoePkgHandle;$/;"	v
+vzoePkgSize	/home/softscape/zoe/platform/src/srv/zoe.c	/^int vzoePkgSize;$/;"	v
+vzoeSize	/home/softscape/zoe/platform/src/srv/zoe.c	/^int *vzoeSize;$/;"	v
+vzoeSlot	/home/softscape/zoe/platform/src/srv/zoe.c	/^char *vzoeSlot;$/;"	v
+vzoeSlotCond	/home/softscape/zoe/platform/src/srv/zoe.c	/^pthread_cond_t vzoeSlotCond;$/;"	v
+vzoeSlotMutex	/home/softscape/zoe/platform/src/srv/zoe.c	/^pthread_mutex_t vzoeSlotMutex;$/;"	v
+vzoeThrBusy	/home/softscape/zoe/platform/src/srv/zoe.c	/^int vzoeThrBusy;$/;"	v
+vzoeThrHead	/home/softscape/zoe/platform/src/srv/zoe.c	/^int vzoeThrHead;$/;"	v
+vzoeThrList	/home/softscape/zoe/platform/src/srv/zoe.c	/^}*vzoeThrList;$/;"	v	typeref:struct:tzoeThrInfo
+vzoeThrLive	/home/softscape/zoe/platform/src/srv/zoe.c	/^int vzoeThrLive;$/;"	v
+vzoeThrMaxCnt	/home/softscape/zoe/platform/src/srv/zoe.c	/^int vzoeThrMaxCnt;$/;"	v
+vzoeThrMinCnt	/home/softscape/zoe/platform/src/srv/zoe.c	/^int vzoeThrMinCnt;$/;"	v
+vzoeThrTail	/home/softscape/zoe/platform/src/srv/zoe.c	/^int vzoeThrTail;$/;"	v
+vzoeTime	/home/softscape/zoe/platform/src/srv/zoe.c	/^timer_t *vzoeTime;$/;"	v
+vzoeTmpData	/home/softscape/zoe/platform/src/srv/zoe.c	/^char **vzoeTmpData;$/;"	v
+vzoeTrnCount	/home/softscape/zoe/platform/src/srv/zoe.c	/^int vzoeTrnCount;$/;"	v
+vzoeTrnHandle	/home/softscape/zoe/platform/src/srv/zoe.c	/^void *vzoeTrnHandle;$/;"	v
+vzoeTrnList	/home/softscape/zoe/platform/src/srv/zoe.c	/^}vzoeTrnList[256];$/;"	v	typeref:struct:tzoeTrnInfo
+vzoeTskHead	/home/softscape/zoe/platform/src/srv/zoe.c	/^int vzoeTskHead;$/;"	v
+vzoeTskList	/home/softscape/zoe/platform/src/srv/zoe.c	/^}*vzoeTskList;$/;"	v	typeref:struct:tzoeTskInfo
+vzoeTskSize	/home/softscape/zoe/platform/src/srv/zoe.c	/^int vzoeTskSize;$/;"	v
+vzoeTskTail	/home/softscape/zoe/platform/src/srv/zoe.c	/^int vzoeTskTail;$/;"	v
